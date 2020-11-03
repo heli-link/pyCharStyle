@@ -17,8 +17,8 @@ import tkinter.messagebox #这个是消息框，对话框的关键
 win = tkinter.Tk()
 var = tkinter.StringVar()
 
-url = 'https://imgebed.oss-cn-zhangjiakou.aliyuncs.com/img/saber.jpg'
-url2 = 'https://imgebed.oss-cn-zhangjiakou.aliyuncs.com/img/color.png'
+# url = 'https://imgebed.oss-cn-zhangjiakou.aliyuncs.com/img/saber.jpg'
+# url2 = 'https://imgebed.oss-cn-zhangjiakou.aliyuncs.com/img/color.png'
 
 # 把图片绑定在类属性中，防止运行过程中被gc清理
 class iconimg():
@@ -27,13 +27,11 @@ class iconimg():
     def __init__(self):
         # tk只支持 gif,所以需要先使用pil转一下 改代码需放在tk初始化之后，否则会报错
         # 设置条形框,插入图片
-        response = requests.get(url)
-        image = Image.open(BytesIO(response.content))
+        image = Image.open('icon/saber.png')
         image = image.resize((32,32))
         self.sabericon =  ImageTk.PhotoImage(image)
 
-        response = requests.get(url2)
-        image = Image.open(BytesIO(response.content))
+        image = Image.open('icon/color.png')
         image = image.resize((48,48))
         self.coloricon =  ImageTk.PhotoImage(image)  # 用PIL模块的PhotoImage打开
 iconimg = iconimg()
