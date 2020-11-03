@@ -4,6 +4,13 @@
 
 - csdn ：https://blog.csdn.net/qq_42733641/article/details/109458964
 
+### 目录：
+- cvimg   图像处理，opencv
+- delete  删除的部分代码，总感觉以后有用
+- main    GUI 界面
+- text       通用文本信息
+- util        工具类
+
 ### 界面及使用
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201103084502258.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyNzMzNjQx,size_16,color_FFFFFF,t_70#pic_center)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201103084507118.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyNzMzNjQx,size_16,color_FFFFFF,t_70#pic_center)
@@ -29,9 +36,3 @@
 绿色貌似不太好，慎用
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201102222308843.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyNzMzNjQx,size_16,color_FFFFFF,t_70#pic_center)
 
-### 目录：
-- cvimg   图像处理，opencv
-- delete  删除的部分代码，总感觉以后有用
-- main    GUI 界面
-- text       通用文本信息
-- util        工具类
