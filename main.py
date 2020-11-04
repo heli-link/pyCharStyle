@@ -101,7 +101,7 @@ class img():
     def _func(self,ls):
         for i in ls:
             #得到的是一个字节
-            i = i.decode()
+            i = i.decode("utf8","ignore")
             if u.suffix(i) == 2:
                 var.set('不支持的格式')
             else:
